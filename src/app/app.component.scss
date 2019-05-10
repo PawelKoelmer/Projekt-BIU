@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+    font-size: 7em;
+}
+.form{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+input[type=submit]{
+    width: 100px;
+}

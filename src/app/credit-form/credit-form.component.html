@@ -1,0 +1,18 @@
+
+<form appVisibility [formGroup]="creditForm">
+<div>{{creditLabel}}</div>
+<label>
+  Wnioskowana kwota:
+  <input type="number" formControlName="amount"></label>
+
+<label>
+  Ilość rat:
+    <input type="number" formControlName="numberOfInstallments">
+</label>
+
+<label>Rata równa: 
+  <input type="checkbox" formControlName="staticInstallment"></label>
+<label>Rata malejąca: 
+  <input type="checkbox" formControlName="changingInstallment"></label>
+  <button type="submit">Wnioskuj</button>
+</form>
